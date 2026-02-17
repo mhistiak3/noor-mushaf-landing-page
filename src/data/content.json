@@ -1,0 +1,128 @@
+{
+  "navbar": {
+    "logo": {
+      "text": "Noor",
+      "subText": "Mushaf"
+    },
+    "links": [
+      { "label": "Home", "href": "#hero" },
+      { "label": "Features", "href": "#features" },
+      { "label": "Preview", "href": "#preview" },
+      { "label": "How It Works", "href": "#how-it-works" },
+      { "label": "Reviews", "href": "#testimonials" }
+    ],
+    "cta": "Download"
+  },
+  "hero": {
+    "title": "اقرأ، استمع،\nواحفظ القرآن بسهولة",
+    "subtitle": "Your peaceful companion for reading, memorizing, and listening to the Holy Quran.",
+    "buttons": {
+      "primary": {
+        "text": "Download App",
+        "href": "https://expo.dev/accounts/istiak-ahs-organization/projects/noor-mushaf/builds/adeb3383-96bc-4b9b-bcd0-b7cf096d3d67"
+      },
+      "secondary": { "text": "Explore Features", "href": "#features" }
+    }
+  },
+  "features": {
+    "title": "Everything You Need for Your Quran Journey",
+    "subtitle": "Thoughtfully designed features to make reading,  memorizing the Quran a beautiful experience.",
+    "items": [
+      {
+        "icon": "Clock",
+        "title": "Payer Time Widget",
+        "description": "Add Noor Mushaf to your home screen for easy access to the Quran."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "All Surahs & Juz",
+        "description": "Complete Quran with all 114 Surahs and 30 Juz organized for easy access."
+      },
+      {
+        "icon": "Bookmark",
+        "title": "Bookmark & Last Read",
+        "description": "Save your place and continue reading from where you left off anytime."
+      },
+
+      {
+        "icon": "Brain",
+        "title": "Hafezi Mode",
+        "description": "Memorization-friendly mode with repeat, reveal, and progress tracking."
+      },
+      {
+        "icon": "Search",
+        "title": "Smart Search",
+        "description": "Search by Surah name, Ayah number, or Para to find any verse instantly."
+      },
+      {
+        "icon": "Moon",
+        "title": "Night Mode",
+        "description": "Comfortable dark reading experience for late night Quran sessions."
+      }
+    ]
+  },
+  "appPreview": {
+    "title": "Experience the Beauty of Noor Mushaf",
+    "subtitle": "A clean, distraction-free interface designed to help you focus on the words of Allah."
+  },
+  "howItWorks": {
+    "title": "Simple Steps to Start",
+    "subtitle": "Get started with your Quran journey in minutes.",
+    "steps": [
+      {
+        "title": "Download & Install",
+        "description": "Get the app from your store and install it on your device in seconds."
+      },
+      {
+        "title": "Choose Para or Surah",
+        "description": "Choose your favorite Para or Surah to start reading."
+      },
+      {
+        "title": "Start Reading",
+        "description": "Begin reading, listening, or memorizing with our easy-to-use tools."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Loved by Thousands",
+    "subtitle": "See what our community says about their experience with Hudaa.",
+    "items": [
+      {
+        "name": "Asad Mahmood",
+        "text": "Noor Mushaf has completely transformed my daily Quran routine. The audio quality and memorization mode are incredible.",
+        "rating": 5
+      },
+      {
+        "name": "Jubaer",
+        "text": "Noor Mushaf is the most beautiful and peaceful Quran app I've ever used. Night mode is perfect for Tahajjud reading.",
+        "rating": 5
+      },
+      {
+        "name": "Istiak Ahammad",
+        "text": "I love the bookmark feature and how easy it is to switch between Surahs. Truly a blessed companion.",
+        "rating": 5
+      },
+      {
+        "name": "Sharafat",
+        "text": "My children enjoy using Noor Mushaf for memorization. The Hafezi mode makes it so much easier for them.",
+        "rating": 5
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Your Journey Today",
+    "subtitle": "Join thousands of users who have made Noor Mushaf their daily companion for the Holy Quran.",
+    "buttonText": "Download Now",
+    "downloadLink": "https://expo.dev/accounts/istiak-ahs-organization/projects/noor-mushaf/builds/adeb3383-96bc-4b9b-bcd0-b7cf096d3d67",
+    "googlePlayText": "Download Now For Android",
+    "appStoreText": "Coming Soon"
+  },
+  "footer": {
+    "copyright": "© 2026 Noor Mushaf. All rights reserved.",
+    "links": [
+      { "label": "Privacy Policy", "href": "#" },
+      { "label": "Terms of Service", "href": "#" },
+      { "label": "Contact Us", "href": "#" }
+    ]
+  }
+}

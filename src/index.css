@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 160 30% 4%;
+    --foreground: 40 20% 95%;
+
+    --card: 160 20% 8%;
+    --card-foreground: 40 20% 95%;
+
+    --popover: 160 20% 8%;
+    --popover-foreground: 40 20% 95%;
+
+    --primary: 162 89% 20%;
+    --primary-foreground: 40 20% 95%;
+
+    --secondary: 222 47% 11%;
+    --secondary-foreground: 40 20% 95%;
+
+    --muted: 160 15% 14%;
+    --muted-foreground: 160 10% 55%;
+
+    --accent: 48 97% 54%;
+    --accent-foreground: 222 47% 11%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 40 20% 95%;
+
+    --border: 160 15% 18%;
+    --input: 160 15% 18%;
+    --ring: 162 89% 20%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 160 20% 6%;
+    --sidebar-foreground: 40 20% 95%;
+    --sidebar-primary: 162 89% 20%;
+    --sidebar-primary-foreground: 40 20% 95%;
+    --sidebar-accent: 160 15% 14%;
+    --sidebar-accent-foreground: 40 20% 95%;
+    --sidebar-border: 160 15% 18%;
+    --sidebar-ring: 162 89% 20%;
+
+    /* Custom tokens */
+    --emerald-glow: 162 89% 20%;
+    --gold: 48 97% 54%;
+    --gold-muted: 48 60% 40%;
+    --navy: 222 47% 11%;
+    --glass-bg: 160 20% 10% / 0.4;
+    --glass-border: 160 20% 30% / 0.2;
+    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(160 30% 4%) 0%,
+      hsl(162 40% 10%) 40%,
+      hsl(222 47% 8%) 100%
+    );
+    --gradient-gold: linear-gradient(135deg, hsl(48 97% 54%), hsl(40 90% 45%));
+    --gradient-emerald: linear-gradient(
+      135deg,
+      hsl(162 89% 20%),
+      hsl(162 70% 30%)
+    );
+    --gradient-card: linear-gradient(
+      135deg,
+      hsl(160 20% 10% / 0.6),
+      hsl(160 20% 8% / 0.3)
+    );
+    --font-arabic: "Amiri", serif;
+    --font-sans: "Inter", sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+}
+
+@layer components {
+  .glass-card {
+    background: hsl(var(--glass-bg));
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid hsl(var(--glass-border));
+    box-shadow: var(--glass-shadow);
+  }
+
+  .glass-navbar {
+    background: hsl(160 30% 4% / 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid hsl(var(--glass-border));
+  }
+
+  .gradient-text-gold {
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-text-emerald {
+    background: var(--gradient-emerald);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glow-emerald {
+    box-shadow:
+      0 0 30px hsl(162 89% 20% / 0.3),
+      0 0 60px hsl(162 89% 20% / 0.1);
+  }
+
+  .glow-gold {
+    box-shadow:
+      0 0 30px hsl(48 97% 54% / 0.3),
+      0 0 60px hsl(48 97% 54% / 0.1);
+  }
+
+  .btn-primary-glow {
+    @apply bg-primary text-primary-foreground font-semibold rounded-xl px-8 py-4 transition-all duration-300;
+  }
+  .btn-primary-glow:hover {
+    box-shadow:
+      0 0 20px hsl(162 89% 20% / 0.5),
+      0 0 40px hsl(162 89% 20% / 0.2);
+    transform: scale(1.05);
+  }
+
+  .btn-outline-gold {
+    @apply border-2 font-semibold rounded-xl px-8 py-4 transition-all duration-300;
+    border-color: hsl(var(--gold));
+    color: hsl(var(--gold));
+  }
+  .btn-outline-gold:hover {
+    background: hsl(48 97% 54% / 0.1);
+    box-shadow: 0 0 20px hsl(48 97% 54% / 0.3);
+    transform: scale(1.05);
+  }
+
+  .floating-shape {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(60px);
+    opacity: 0.15;
+    animation: float 8s ease-in-out infinite;
+  }
+
+  .font-arabic {
+    font-family: var(--font-arabic);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  33% {
+    transform: translateY(-20px) translateX(10px);
+  }
+  66% {
+    transform: translateY(10px) translateX(-15px);
+  }
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-30px) rotate(5deg);
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.15;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
