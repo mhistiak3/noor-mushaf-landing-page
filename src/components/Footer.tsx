@@ -11,9 +11,7 @@ const Footer = () => {
             <span className="text-2xl font-arabic font-bold gradient-text-gold">
               هُدًى
             </span>
-            <span className="text-sm text-muted-foreground">
-              Hudaa – Quran Companion
-            </span>
+            <span className="text-sm text-muted-foreground">Noor Mushaf</span>
           </div>
 
           <div className="flex gap-6 text-sm text-muted-foreground">
