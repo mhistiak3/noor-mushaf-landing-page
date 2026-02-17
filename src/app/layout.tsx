@@ -3,7 +3,7 @@ import React from "react";
 import "../index.css";
 
 export const metadata = {
-  title: "Hudaa - Quran App",
+  title: "Noor Mushaf - Quran App",
   description:
     "Your peaceful companion for reading, memorizing, and listening to the Holy Quran.",
   icons: {

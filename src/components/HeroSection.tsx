@@ -89,7 +89,7 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-emerald rounded-full blur-[100px] opacity-20 animate-pulse-glow" />
             <img
               src={phoneMockup.src}
-              alt="Hudaa Quran App"
+              alt="Noor Mushaf App"
               className="relative z-10 w-[280px] md:w-[340px] drop-shadow-2xl animate-float-slow rounded-2xl"
             />
           </div>

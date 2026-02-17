@@ -30,7 +30,8 @@ const HowItWorksSection = () => {
             </span>
             {!title.includes("Start") && (
               <>
-                How <span className="gradient-text-gold">Hudaa</span> Works
+                How <span className="gradient-text-gold">Noor Mushaf</span>{" "}
+                Works
               </>
             )}
           </h2>
