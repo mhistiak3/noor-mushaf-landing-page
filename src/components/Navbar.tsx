@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const { logo, links, cta } = content.navbar;
+  const { logo, links, cta, ctaLink } = content.navbar;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -82,7 +82,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="https://expo.dev/accounts/istiak-ahs-organization/projects/noor-mushaf/builds/adeb3383-96bc-4b9b-bcd0-b7cf096d3d67"
+                href={ctaLink}
                 className="btn-primary-glow text-sm text-center !py-2.5"
                 target="_blank"
               >
