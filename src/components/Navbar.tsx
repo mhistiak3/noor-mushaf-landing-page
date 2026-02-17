@@ -26,8 +26,11 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <a href="#hero" className="flex items-center gap-2">
-          <span className="text-2xl font-arabic font-bold gradient-text-gold">
+        <a
+          href="#hero"
+          className="flex items-center gap-2 bg-primary px-3 py-1 rounded-lg"
+        >
+          <span className="text-2xl font-arabic font-bold text-primary-foreground">
             {logo.text}
           </span>
           <span className="text-sm font-medium text-muted-foreground">

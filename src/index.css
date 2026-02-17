@@ -150,8 +150,8 @@
 
     /* Custom tokens */
     --emerald-glow: 174 48% 23%;
-    --gold: 48 97% 54%;
-    --gold-muted: 48 60% 40%;
+    --gold: 174 48% 23%;
+    --gold-muted: 40 20% 95%;
     --navy: 222 47% 11%;
     --glass-bg: 160 20% 10% / 0.4;
     --glass-border: 160 20% 30% / 0.2;
@@ -162,10 +162,14 @@
       hsl(162 40% 10%) 40%,
       hsl(222 47% 8%) 100%
     );
-    --gradient-gold: linear-gradient(135deg, hsl(48 97% 54%), hsl(40 90% 45%));
+    --gradient-gold: linear-gradient(
+      135deg,
+      hsl(174, 35%, 36%),
+      hsl(174 48% 33%)
+    );
     --gradient-emerald: linear-gradient(
       135deg,
-      hsl(174 48% 23%),
+      hsl(174, 29%, 53%),
       hsl(174 48% 33%)
     );
     --gradient-card: linear-gradient(
