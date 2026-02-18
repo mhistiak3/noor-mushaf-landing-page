@@ -12,7 +12,7 @@
       { "label": "Reviews", "href": "#testimonials" }
     ],
     "cta": "Download",
-    "ctaLink": "https://expo.dev/accounts/istiak-ahs-organization/projects/noor-mushaf/builds/0d6a66c1-a3f3-41bf-b1a1-f2bc8ae3cdaa"
+    "ctaLink": "https://expo.dev/accounts/istiak-ahs-organization/projects/noor-mushaf/builds/9228b09b-7b47-40ba-b78c-9200aa739e92"
   },
   "hero": {
     "title": "اقرأ، استمع،\nواحفظ القرآن بسهولة",
@@ -20,7 +20,7 @@
     "buttons": {
       "primary": {
         "text": "Download App",
-        "href": "https://expo.dev/accounts/istiak-ahs-organization/projects/noor-mushaf/builds/0d6a66c1-a3f3-41bf-b1a1-f2bc8ae3cdaa"
+        "href": "https://expo.dev/accounts/istiak-ahs-organization/projects/noor-mushaf/builds/9228b09b-7b47-40ba-b78c-9200aa739e92"
       },
       "secondary": { "text": "Explore Features", "href": "#features" }
     }
@@ -114,7 +114,7 @@
     "title": "Start Your Journey Today",
     "subtitle": "Join thousands of users who have made Noor Mushaf their daily companion for the Holy Quran.",
     "buttonText": "Download Now",
-    "downloadLink": "https://expo.dev/accounts/istiak-ahs-organization/projects/noor-mushaf/builds/0d6a66c1-a3f3-41bf-b1a1-f2bc8ae3cdaa",
+    "downloadLink": "https://expo.dev/accounts/istiak-ahs-organization/projects/noor-mushaf/builds/9228b09b-7b47-40ba-b78c-9200aa739e92",
     "googlePlayText": "Download Now For Android",
     "appStoreText": "Coming Soon"
   },
