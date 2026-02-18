@@ -10,7 +10,7 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center overflow-hidden pt-20"
+      className="relative min-h-screen flex items-center overflow-hidden pt-40 lg:pt-20"
     >
       {/* Floating shapes */}
       <div className="floating-shape w-[400px] h-[400px] bg-emerald top-20 -left-40 animate-float" />
